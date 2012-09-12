@@ -1,6 +1,7 @@
 --[[ Vector2 by Angelo Yazar ]]--
 local math = math
 local setmetatable = setmetatable
+local assert = assert
 local Vector2 = {}
 setfenv(1, Vector2)
 mt = {}

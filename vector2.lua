@@ -121,8 +121,10 @@ function max( a, b )
 end
 
 local function sign( x )
-	if x == 0 then return 1 else
-		return math.abs(x)/x
+	if x < 0 then 
+		return -1
+	else
+		return 1
 	end
 end
 

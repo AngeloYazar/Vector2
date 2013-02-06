@@ -14,7 +14,7 @@ function new( i, j )
 end
 
 function get( a )
-  return a[1], a[2]
+	return a[1], a[2]
 end
 
 function set( v, a, b )
